@@ -1,0 +1,379 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*nav start*/
+
+.nav {
+	background: white;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 60px;
+	background: border box;
+}
+/*nav end*/
+
+
+.menu a {
+	color: #fe70a8;
+	font-size: 24px;
+	word-spacing: 24px;
+	text-decoration: none;
+	font-family: auto;
+	margin: 0 9px;
+}
+
+.logo img {
+	width: 130px;
+	padding-left: 4px;
+	margin: 60px;
+}
+
+
+	    /*BANNER START*/
+
+
+.banner {
+	background: url(../image/newpage.jpg);
+	height: 381px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-top: 11px;
+}
+
+.banner h1 {
+	text-align: center;
+	line-height: 380px;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 42px;
+	text-shadow: 0px 0px 5px rgb(0 0 0 / 12%);
+}
+
+	    /*banner close */
+
+
+
+
+	    /*intro start*/
+
+.intro {
+	padding: 20px;
+	background: #f9f7f2;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 300;
+	font-family: "museo-sans", sans-serif;
+	height: 95px;
+	width: 100%;
+}
+
+	    /*INTRO END*/
+
+
+
+
+
+
+
+	    /*works start*/
+.works h1 {
+	margin: 102px 102px 20px;
+	;
+    text-transform: uppercase;
+	font-family: "museo-sans", sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #d70f64;
+	text-align: left;
+}
+
+.works h4 {
+	color: #d70f64;
+	padding: 0 171px;
+	margin-top: 55px;
+}
+
+.works h5 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.veer {
+	margin-right: 20%;
+	text-align: justify;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-inline: 327px;
+	padding: 60px;
+	margin-top: -66px;
+}
+
+.veer a {
+	text-decoration: none;
+	color: black;
+}
+
+	    /*mission start*/
+.mission {
+	background: #d70f64;
+	margin-top: 31px;
+	height: 472px;
+}
+
+.mission h2 {
+	margin-top: 20px;
+	padding: 0px 0px 0px 131px;
+	position: relative;
+	top: 30%;
+	color: white;
+}
+
+.mission p {
+	color: white;
+	position: relative;
+	top: 40%;
+	margin-left: 125px;
+	margin-top: -16px;
+}
+
+	    /*MISSION END*/
+
+
+
+	    /*ABOUTFOODPANDA*/
+
+.aboutfood {
+	height: 517px;
+}
+
+.aboutfood h3 {
+	margin: 0 0 20px;
+	text-transform: uppercase;
+	font-family: "museo-sans", sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #d70f64;
+	padding-left: 97px;
+	position: relative;
+	top: 20%;
+}
+
+.aboutfood p {
+	padding: 245px;
+	margin-right: 4px;
+	margin-top: -139px;
+	padding-left: 94px;
+	font-size: 16px;
+	line-height: 1.6;
+
+}
+
+
+
+/*container start*/
+
+
+.container{
+
+
+	background: #f9f7f2;
+	width: 100%;
+    height:auto;
+    display: flex;
+    padding: 112px;
+    margin-top: -223px;
+
+
+}
+
+
+.row{
+
+
+	background: white;
+    height: 65px;
+    width: 315px;
+    margin: 27px;
+}
+
+.market img{
+	width: 62px;
+}
+
+
+.market h5{
+
+	margin-inline: 71px;
+    margin-top: -60px;
+    font-weight: 300;
+}
+
+
+.market h2{
+
+   color: #d70f64;
+   margin-inline: 81px;
+}
+
+
+.restaurants img{
+
+width: 62px;
+
+}
+
+
+
+.restaurants h5{
+
+margin-inline: 71px;
+    margin-top: -60px;
+    font-weight: 300;
+
+}
+
+.restaurants h2{
+ color: #d70f64;
+   margin-inline: 81px;
+
+
+}
+
+
+.bikes img{
+
+width: 62px;
+
+}
+
+.bikes h5{
+
+	margin-inline: 71px;
+    margin-top: -60px;
+    font-weight: 300;
+}
+
+.bikes h2{
+
+	 color: #d70f64;
+   margin-inline: 81px;
+
+}
+
+
+
+
+.cities img{
+
+width: 62px;
+}
+
+
+.cities h5{
+
+margin-inline: 71px;
+    margin-top: -60px;
+    font-weight: 300;
+
+}
+
+.cities h2{
+
+ color: #d70f64;
+   margin-inline: 81px;
+
+
+}
+
+
+.lastCopyRight{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 10px 20px;
+	display: flex;
+
+}
+
+
+.lastCopyRightOne {
+position: relative;
+width: 50%;
+height: auto;
+padding: 10px;
+display: flex;
+flex-direction: column;
+flex-direction: left;
+}
+
+.lastCopyRightOne img{
+	position: relative;
+	width: auto;
+	height: auto;
+	max-width: 150px;
+	max-height: 50px;
+	object-fit: contain;
+	display: block;
+}
+.lastCopyRightOne p{
+	position: relative;
+	font-size: 14px;
+	font-weight: 500;
+	display: block;
+	padding: 10px;
+}
+
+
+.lastCopyRightTwo {
+position: relative;
+width: 50%;
+height: auto;
+padding: 10px ;
+display: flex;
+flex-direction: column;
+float: right;
+}
+
+.lastCopyRightTwoImg {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+	margin-left: auto;
+}
+
+.lastCopyRightTwoImg img{
+	position: relative;
+	width: auto;
+	height: auto;
+	margin: 0px 5px;
+	object-fit: cover;
+}
+
+.lastCopyRightTwoLink {
+	position: relative;
+	width: auto;
+height: auto;
+margin-left: auto;
+padding: 10px;
+}
+
+.lastCopyRightTwoLink p{
+	position: relative;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	display: inline-block;
+}
